@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const UserRoute = require("./routes/user.routes");
 const ToDoRoute = require('./routes/todo.router');
 const app = express();
-const connectDB = require('./config/db');
 const cors = require('cors'); // Import the cors middleware
 
 const port = process.env.PORT || 3000;
